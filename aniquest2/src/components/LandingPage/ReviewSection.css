@@ -1,0 +1,124 @@
+
+.review-slider-container {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  top: 4913px;
+  left: 244px;
+}
+
+.review-slide {
+  padding: 10px;
+  text-align: left;
+}
+
+.review-content {
+  width: 450px;
+  height: 381px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start;
+}
+.reviewer-image {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-top: 27px; 
+    margin-left: 25px; 
+}
+.reviewer-details {
+    margin-top: -85px; 
+    margin-left: 99px; 
+  }
+.reviewer-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: auto;
+    color: #25262C;
+    margin-bottom: 5px;
+}
+.reviewer-occupation {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 1px;
+  line-height: auto;
+  color: #848484;
+}
+
+
+.review-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: auto;
+    color: #25262C;
+    width: 382px;
+    margin-top: 13px; 
+    margin-left: 38px; 
+}
+
+.review-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #767676;
+    width: 382px;
+    margin-top: -1px; 
+    margin-left: 38px; 
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+
+
+
+.review-rating {
+    font-size: 1rem;
+    color: #FFD700;
+    margin-top: 19px;
+    margin-left: -65px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  width: 130px; 
+  height: 33px; 
+  margin: 10px auto; 
+}
+
+.slick-dots li {
+  margin: 0 10px; 
+  list-style-type: none;
+}
+
+.slick-dots li button {
+  width: 27px; 
+  height: 27px; 
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.26); 
+  border: none;
+  cursor: pointer;
+  
+}
+
+.slick-dots li.slick-active button {
+  width: 33px; 
+  height: 33px; 
+  background-color: #ffffff; 
+  border: 2px solid #ca3fd6; 
+  
+}
