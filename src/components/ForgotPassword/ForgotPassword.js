@@ -18,11 +18,11 @@ const ForgotPassword = () => {
       const res = await axios.post('/api/v1/users/forgotPassowrd', { email });
       if (res.data.status === 'success') {
         setLoading(false);
-        navigate('/EnterCode'); // Navigate to EnterCode page upon success
+        navigate('/EnterCode'); 
       }
     } catch (err) {
       setLoading(false);
-      setError('Email not found'); // Display error message if email is not found
+      setError('Email not found'); 
     }
   };
 

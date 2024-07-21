@@ -1,6 +1,6 @@
-// reviewsData.js
+
 import reviewer1Image from "../../icons/reviewer1Image.svg";
-// Sample reviews data (replace with your actual data)
+
 const reviewsData = [
     {
       id: 1,

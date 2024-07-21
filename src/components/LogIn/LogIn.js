@@ -29,10 +29,10 @@ const LogIn = () => {
       });
       if (res.data.status === 'success') {
         setLoading(false);
-        setError(''); // Clear any previous errors
+        setError(''); 
         setSuccessMessage('Signing you in...');
         window.setTimeout(() => {
-          window.location.reload(true); // Changed 'location' to 'window.location'
+          window.location.reload(true);
         }, 1500);
       }
     } catch (err) {
@@ -83,9 +83,11 @@ const LogIn = () => {
         <div className={styles.loginPrompt}>
           Don’t have an account? <Link to="/SignUp" className={styles.loginLink}>Sign Up</Link> or <Link to="/ForgotPassword" className={styles.loginLink}>Forget Password</Link>
         </div>
-        <div className={styles.solidLine}></div>
-        <div className={styles.otherlinksprompt}>or Sign In with</div>
-        <div className={styles.solidLine2}></div>
+        <div class={styles.container2}>
+          <div class={styles.solidLine}></div>
+          <div class={styles.otherlinksprompt}>or Sign In with</div>
+          <div class={styles.solidLine2}></div>
+        </div>
         <div className={styles.socialSignUpContainer}>
           <div className={styles.socialSignUpBox}>
             <img src={twitterIcon} alt="Twitter Icon" className={styles.socialSignUpIcon} />

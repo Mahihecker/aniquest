@@ -4,7 +4,7 @@ import styles from './NewPassword.module.css';
 import '../../App.css';
 
 const NewPassword = () => {
-  const { token } = useParams(); // Retrieve the token from the URL params
+  const { token } = useParams(); 
   const navigate = useNavigate();
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
@@ -24,7 +24,7 @@ const NewPassword = () => {
 
       const data = await response.json();
       if (data.status === 'success') {
-        navigate('/login'); // Navigate to the login page after password reset
+        navigate('/login'); 
       } else {
         alert('Failed to reset password. Please try again.');
       }

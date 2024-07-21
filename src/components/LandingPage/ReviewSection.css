@@ -1,4 +1,4 @@
-/* ReviewSlider.css */
+
 .review-slider-container {
   width: 80%;
   margin: 0 auto;
@@ -27,12 +27,12 @@
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    margin-top: 27px; /* Adjusted top margin */
-    margin-left: 25px; /* Adjusted left margin */
+    margin-top: 27px; 
+    margin-left: 25px; 
 }
 .reviewer-details {
-    margin-top: -85px; /* Adjusted top margin */
-    margin-left: 99px; /* Adjusted left margin */
+    margin-top: -85px; 
+    margin-left: 99px; 
   }
 .reviewer-name {
     font-family: "Poppins", sans-serif;
@@ -59,8 +59,8 @@
     line-height: auto;
     color: #25262C;
     width: 382px;
-    margin-top: 13px; /* Adjusted top margin */
-    margin-left: 38px; /* Adjusted left margin */
+    margin-top: 13px; 
+    margin-left: 38px; 
 }
 
 .review-text {
@@ -70,8 +70,8 @@
     line-height: 26px;
     color: #767676;
     width: 382px;
-    margin-top: -1px; /* Adjusted top margin */
-    margin-left: 38px; /* Adjusted left margin */
+    margin-top: -1px; 
+    margin-left: 38px; 
 }
 
 .reviewer-info {
@@ -86,7 +86,7 @@
 .review-rating {
     font-size: 1rem;
     color: #FFD700;
-    margin-top: 19px; /* Adjusted top margin */
+    margin-top: 19px;
     margin-left: -65px;
 }
 
@@ -95,30 +95,30 @@
   justify-content: center;
   position: relative;
   bottom: 0;
-  width: 130px; /* Total width of the dots */
-  height: 33px; /* Height of the dots */
-  margin: 10px auto; /* Adjust margin as needed */
+  width: 130px; 
+  height: 33px; 
+  margin: 10px auto; 
 }
 
 .slick-dots li {
-  margin: 0 10px; /* Adjust spacing between dots */
+  margin: 0 10px; 
   list-style-type: none;
 }
 
 .slick-dots li button {
-  width: 27px; /* Inactive dot width */
-  height: 27px; /* Inactive dot height */
+  width: 27px; 
+  height: 27px; 
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.26); /* Inactive dot color with transparency */
+  background-color: rgba(255, 255, 255, 0.26); 
   border: none;
   cursor: pointer;
   
 }
 
 .slick-dots li.slick-active button {
-  width: 33px; /* Active dot width */
-  height: 33px; /* Active dot height */
-  background-color: #ffffff; /* Active dot color */
-  border: 2px solid #ca3fd6; /* Active dot border color */
+  width: 33px; 
+  height: 33px; 
+  background-color: #ffffff; 
+  border: 2px solid #ca3fd6; 
   
 }

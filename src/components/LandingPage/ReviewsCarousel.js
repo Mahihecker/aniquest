@@ -1,11 +1,11 @@
-// ReviewSlider.js
+
 
 import React from 'react';
 import Slider from 'react-slick';
-import reviewsData from './reviewsData'; // Import your reviews data
+import reviewsData from './reviewsData'; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './ReviewSection.css'; // Import your custom CSS for styling
+import './ReviewSection.css'; 
 
 const ReviewSlider = () => {
   const settings = {

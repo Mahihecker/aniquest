@@ -276,7 +276,7 @@ const LandingPage = () => {
       <p className={styles.aiPatternText1}>
         Users approve and use regularly AI writing
       </p>
-      <h3 className={styles.numberText2}>>96%</h3>
+      <h3 className={styles.numberText2}>{'>'}96%</h3>
       <p className={styles.aiPatternText2}>Proven accuracy</p>
       <h3 className={styles.numberText3}>67</h3>
       <p className={styles.aiPatternText3}>Industry leading eNPS score</p>
@@ -412,7 +412,7 @@ const LandingPage = () => {
         alt="Bar SVG"
       />
 
-      {/* Image shape43.svg */}
+    
       <img
         src={shape43}
         className={styles.shape43Svg}
@@ -425,7 +425,7 @@ const LandingPage = () => {
         alt="Shape43 SVG"
       />
 
-      {/* Text "Try it for free right now!" */}
+     
       <div
         className={styles.tryFreeText}
         style={{ top: "5630px", left: "378px", width: "699px", height: "58px" }}
@@ -433,7 +433,7 @@ const LandingPage = () => {
         Try it for free right now!
       </div>
 
-      {/* Text "Test the quality of our program..." */}
+      
       <div
         className={styles.testQualityText}
         style={{ top: "5747px", left: "378px", width: "679px", height: "64px" }}
@@ -442,7 +442,7 @@ const LandingPage = () => {
         effectiveness of our AI, start right now to generate quality content!
       </div>
 
-      {/* Button "SIGN UP WITH EMAIL" */}
+      
       <button
         className={styles.emailSignupButton}
         style={{ top: "6004px", left: "379px", width: "297px", height: "61px" }}
@@ -451,7 +451,7 @@ const LandingPage = () => {
         SIGN UP WITH EMAIL
       </button>
 
-      {/* Button "SIGN UP WITH GOOGLE" */}
+     
       <button
         className={styles.googleSignupButton}
         style={{ top: "6004px", left: "687px", width: "297px", height: "61px" }}
@@ -459,10 +459,10 @@ const LandingPage = () => {
       >
         SIGN UP WITH GOOGLE
       </button>
-      {/* Line */}
+      
       <div className={styles.line} style={{ top: "6543px" }} />
 
-      {/* Text "T22 All rights reserved" */}
+     
       <div
         className={styles.footerText}
         style={{ top: "6577px", left: "268px" }}

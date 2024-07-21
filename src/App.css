@@ -17,11 +17,21 @@ html, body {
       background-color: black;
     }
   }
+
+  :root {
+    --primary-color: #31A6F4;
+    --secondary-color: #215FD8;
+    --border-color: #F2F2F2;
+    --light-gray: #DADADA;
+    --gray: #8B8B8B;
+    --error-color: #CA3FD6;
+  }
   .Container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 2rem;
     height: 100vh;
     background-color: white;
     border: none;
