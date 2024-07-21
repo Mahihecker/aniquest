@@ -41,7 +41,7 @@ const EnterCode = () => {
             onChange={(e) => setVerificationCode(e.target.value)}
             required
           />
-          <label className={styles.inputLabel} htmlFor="code">Enter the given Code Here</label>
+          <label className={styles.inputLabel} htmlFor="code"></label>
         </div>
         <button className={styles.Button} onClick={handleVerify}>Verify</button>
       </div>

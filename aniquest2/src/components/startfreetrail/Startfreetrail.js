@@ -93,9 +93,11 @@ const Startfreetrail = () => {
         <div className={styles.loginPrompt}>
           Already have an account? <Link to="/LogIn" className={styles.loginLink}>Log in</Link>
         </div>
-        <div className={styles.solidLine}></div>
-        <div className={styles.otherlinksprompt}>or Sign In with</div>
-        <div className={styles.solidLine2}></div>
+        <div class={styles.container2}>
+          <div class={styles.solidLine}></div>
+          <div class={styles.otherlinksprompt}>or Sign In with</div>
+          <div class={styles.solidLine2}></div>
+        </div>
         <div className={styles.socialSignUpContainer}>
           <div className={styles.socialSignUpBox}>
             <img src={twitterIcon} alt="Twitter Icon" className={styles.socialSignUpIcon} />
