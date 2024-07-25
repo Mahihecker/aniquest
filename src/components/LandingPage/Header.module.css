@@ -67,7 +67,7 @@
 
 /* Mobile navigation menu (hidden by default) */
 .navMenu {
-    display: none;
+    display: none ;
     position: fixed;
     /* Fixed to cover the entire viewport */
     top: 0;
