@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./LandingPage.module.css";
-import logo from "../../icons/logo.svg";
+// import logo from "../../icons/logo.svg";
 import backgroundImage from "../../icons/background.svg";
 import icon1 from "../../icons/fullstories.svg";
 import icon2 from "../../icons/posting.svg";
@@ -30,6 +30,7 @@ import { useNavigate } from "react-router-dom";
 import bar from "../../icons/bar.svg";
 import shape43 from "../../icons/shape43.svg";
 import ReviewSection from "./ReviewsCarousel";
+import Header from "./Header";
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -43,7 +44,7 @@ const LandingPage = () => {
       className={styles.container2}
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <nav className={styles.navbar}>
+      {/* <nav className={styles.navbar}>
         <img src={logo} alt="Logo" className={styles.logo} />
         <ul className={styles.navLinks}>
           <li>
@@ -67,7 +68,9 @@ const LandingPage = () => {
             Get Started
           </Link>
         </div>
-      </nav>
+      </nav> */}
+      <Header/>
+
       <header className={styles.header}>
         <h1>
           Fast and Automatic
