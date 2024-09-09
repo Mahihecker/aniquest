@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  overflow-x: hidden;
+}
+
+.heroSection {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("../../../icons/background.svg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.textContainer {
+  position: relative;
+  top: 15.438rem;
+  left: 10.938rem;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 5.313rem;
+  font-weight: 800;
+  line-height: 5.625rem;
+  margin: 0;
+  color: white;
+}
+
+.subheading {
+  width: 25.188rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.188rem;
+  font-weight: 400;
+  line-height: 1.938rem;
+  color: white;
+  margin-top: 3rem;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 18.313rem;
+  margin-left: 10.938rem;
+}
+
+.freeTrialButton {
+  display: inline-block;
+  width: 14.375rem;
+  height: 3.813rem;
+  background-color: #ca3fd6;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 3.813rem; /* Center text vertically */
+  text-decoration: none;
+  border-radius: 0.563rem;
+}
+
+.signUpGoogleButton {
+  display: inline-block;
+  width: 18.563rem;
+  height: 3.813rem;
+  background-color: #31a6f4;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 3.813rem; /* Center text vertically */
+  text-decoration: none;
+  border-radius: 0.563rem;
+}
+
+.rectangleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.938rem;
+  position: absolute;
+  top:16.284rem;
+  left:80.198rem;
+
+}
+
+.rectangle {
+  display: flex;
+  align-items: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background: linear-gradient(to bottom, rgba(210, 219, 242, 1), rgba(255, 255, 255, 0));
+  border-radius: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  width: 23.813rem; 
+  height:4.875rem
+}
+.rectangle:hover {
+    box-shadow: 0 0 1.25rem white;
+    transform: scale(1.05);
+  }
+.rectangleIcon {
+  width: 2.188rem;
+  height: 2.188rem;
+  margin-right: 1rem;
+}
+
+.rectangleText {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.25rem;
+  color: white;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1550px) {
+    body {
+      overflow-x: hidden;
+    }
+    .rectangleContainer {
+      top: 15rem; /* Adjust vertical position */
+      left: 60rem; /* Adjust horizontal position */
+    }
+    .textContainer {
+      top: 15rem;
+      left: 8rem;
+      width: calc(100% - 4rem);
+    }
+  
+    .heading {
+      font-size: 4rem;
+      line-height: 4.5rem;
+      /* Adjust font size for tablets and smaller desktops */
+    }
+  
+    .subheading {
+      margin: 1rem 0;
+      font-size: 1.25rem; /* Adjust font size for tablets and smaller desktops */
+    }
+    .buttonContainer {
+      margin-top: 15.313rem;
+      margin-left: 8rem;
+    }
+    .freeTrialButton,
+    .signUpGoogleButton {
+      width: 15.188rem; /* Adjust button width for smaller screens */
+      height: 3.125rem; /* Adjust button height for smaller screens */
+      line-height: 3.125rem; /* Center text vertically */
+      font-size: 0.95rem; /* Adjust font size */
+    }
+  }
+@media (max-width: 1140px) {
+    body {
+      overflow-x: hidden;
+    }
+    .rectangleContainer {
+      top: 17rem; /* Adjust vertical position */
+      left: 40rem; /* Adjust horizontal position */
+    }
+    .textContainer {
+      top: 17rem;
+      left: 4rem;
+      width: calc(100% - 4rem);
+    }
+  
+    .heading {
+      font-size: 2.5rem;
+      line-height: 3rem;
+      /* Adjust font size for tablets and smaller desktops */
+    }
+  
+    .subheading {
+      margin: 1rem 0;
+      font-size: 1.25rem; /* Adjust font size for tablets and smaller desktops */
+    }
+    .buttonContainer {
+      margin-top: 17.313rem;
+      margin-left: 3.938rem;
+    }
+    .freeTrialButton,
+    .signUpGoogleButton {
+      width: 12.188rem; /* Adjust button width for smaller screens */
+      height: 3.125rem; /* Adjust button height for smaller screens */
+      line-height: 3.125rem; /* Center text vertically */
+      font-size: 0.95rem; /* Adjust font size */
+    }
+  }
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .rectangleContainer {
+    top: 18rem; /* Adjust vertical position */
+    left: 32.987rem; /* Adjust horizontal position */
+  }
+  .textContainer {
+    top: 18rem;
+    left: 4rem;
+    width: calc(100% - 4rem);
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    /* Adjust font size for tablets and smaller desktops */
+  }
+
+  .subheading {
+    margin: 1rem 0;
+    font-size: 1.25rem; /* Adjust font size for tablets and smaller desktops */
+  }
+  .buttonContainer {
+    margin-top: 18.313rem;
+    margin-left: 3.938rem;
+  }
+  .freeTrialButton,
+  .signUpGoogleButton {
+    width: 12.188rem; /* Adjust button width for smaller screens */
+    height: 3.125rem; /* Adjust button height for smaller screens */
+    line-height: 3.125rem; /* Center text vertically */
+    font-size: 0.95rem; /* Adjust font size */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    align-items: center;
+  }
+  .rectangleContainer {
+    top: 26rem; /* Adjust vertical position */
+    left: 3rem; /* Adjust horizontal position */
+  }
+  .rectangle {
+    width: 21.625rem; /* Adjust width for smaller screens */
+  }
+
+  .rectangleText {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+  }
+  .textContainer {
+    top: 6rem; /* Adjust vertical position */
+    left: 3rem; /* Adjust horizontal position */
+    width: calc(100% - 3rem);
+  }
+
+  .heading {
+    width: 20.625rem;
+    line-height: 2.5rem;
+    font-size: 2rem; /* Adjust font size for mobile phones */
+  }
+
+  .subheading {
+    width: 15.938rem;
+    line-height: 1.5rem;
+    font-size: 1rem; /* Adjust font size for mobile phones */
+  }
+
+  .buttonContainer {
+    margin-top: 6.89rem;
+    margin-left: 2.938rem;
+  }
+  .freeTrialButton,
+  .signUpGoogleButton {
+    width: 180px; /* Adjust button width for smaller screens */
+    height: 45px; /* Adjust button height for smaller screens */
+    line-height: 45px; /* Center text vertically */
+    font-size: 0.875rem; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  .rectangleContainer {
+    top: 22rem; /* Adjust vertical position */
+    left: 2rem; /* Adjust horizontal position */
+  }
+  .rectangle {
+    width: 18.625rem; /* Adjust width for very small screens */
+  }
+
+  .rectangleText {
+    font-size: 0.75rem; /* Adjust font size for very small screens */
+  }
+
+  .textContainer {
+    top: 6rem; /* Adjust vertical position for very small screens */
+    left: 2rem; /* Adjust horizontal position for very small screens */
+    width: calc(100% - 2rem);
+  }
+
+  .heading {
+    line-height: 2.5rem;
+    font-size: 2rem; /* Adjust font size for very small screens */
+  }
+
+  .subheading {
+    line-height: 0.95rem;
+    font-size: 0.75rem; /* Adjust font size for very small screens */
+  }
+
+  .buttonContainer {
+    margin-top: 6.89rem;
+    margin-left: 1.938rem;
+  }
+
+  .freeTrialButton,
+  .signUpGoogleButton {
+    width: 160px; /* Adjust button width for smaller screens */
+    height: 40px; /* Adjust button height for smaller screens */
+    line-height: 40px; /* Center text vertically */
+    font-size: 0.75rem; /* Adjust font size */
+  }
+}

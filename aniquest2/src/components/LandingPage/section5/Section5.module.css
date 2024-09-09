@@ -1,0 +1,117 @@
+.section5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+    position: relative;
+  }
+  
+  .textContainer {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .animeTextHeader {
+    width: 90%;
+    max-width: 45.625rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.438rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    color: #000;
+  }
+  
+  .animeTextSubheader {
+    width: 90%;
+    max-width:29.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #87869A;
+    line-height: 1.875rem;
+    margin-top: 1rem;
+  }
+  
+  .imageContainer {
+    position: relative;
+    max-width: 50%;
+  }
+  
+  .rhombusImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imageAboveRhombus {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    transform: translate(50%, -50%);
+    width: 90%;
+    height: auto;
+  }
+  
+  @media (max-width: 1200px) {
+    .section5 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0rem;
+      margin-left: 9rem;
+    }
+  
+    .textContainer {
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+    .animeTextHeader{
+      max-width: auto;
+    }
+    .animeTextSubheader{
+      max-width: auto;
+    }
+
+    .imageContainer {
+      margin-top: 3rem;
+      max-width: 100%;
+    }
+    .rhombusImage {
+      width: 60%;
+    }
+  
+    .imageAboveRhombus {
+      width: 50%;
+      right: 70%;
+
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section5{
+      padding: 0rem;
+      margin-left: 4rem;
+    }
+    .animeTextHeader {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+  
+    .animeTextSubheader {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  
+    .imageContainer {
+      margin-top: 3rem;
+      max-width: 100%;
+    }
+    .rhombusImage {
+      width: 80%;
+    }
+  
+    .imageAboveRhombus {
+      width: 70%;
+      right: 60%;
+
+    }
+  }

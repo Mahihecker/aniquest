@@ -1,0 +1,273 @@
+.section3 {
+  padding: 5rem 15rem;
+  background-color: #ffffff; /* Assuming the background is white */
+}
+
+.imageAndTextSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 7rem;
+  margin-bottom: 2rem;
+}
+
+.image {
+  width: 90%;
+  max-width: 40.5rem;
+}
+
+.textSection {
+  width: 90%;
+  max-width: 45.625rem;
+}
+
+.textSection h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.438rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 4.375rem;
+  color: black;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+
+.textSection p {
+  width: 90%;
+  max-width: 29.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.875rem;
+  color: #87869a;
+  margin-top: 0.938rem;
+}
+
+.tickPoint {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tickPoint img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.tickPoint p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: black;
+}
+
+.readMoreLink {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.438rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.875rem;
+  color: #b0109f;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.readMoreLink img {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Responsive adjustments */
+/* Responsive adjustments */
+/* Responsive adjustments */
+@media (max-width: 1550px) {
+  .section3 {
+    padding: 8rem;
+  }
+  .imageAndTextSection {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image {
+    width: 80%;
+    max-width: 30rem;
+    margin-top: 1rem;
+  }
+
+  .textSection {
+    width: 100%;
+    text-align: left;
+  }
+
+  .textSection h2 {
+    font-size: 2.5rem;
+  }
+
+  .textSection p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  .section3 {
+    padding: 4rem;
+  }
+  .imageAndTextSection {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 25rem;
+    margin-top: 1rem;
+  }
+
+  .textSection {
+    width: 100%;
+    text-align: left;
+    margin-left: 5rem;
+  }
+
+  .textSection h2 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .textSection p {
+    font-size: 1rem;
+  }
+  .tickPoint img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .tickPoint p {
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .imageAndTextSection {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 35rem;
+    margin-top: 1rem;
+  }
+
+  .textSection {
+    width: 100%;
+    text-align: left;
+  }
+
+  .textSection h2 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .textSection p {
+    font-size: 1rem;
+  }
+  .tickPoint img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .tickPoint p {
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+    .section3 {
+      padding: 1rem;
+    }
+  
+    .imageAndTextSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image {
+      width: 90%;
+      max-width: none; /* Remove max-width limit */
+      margin-top: 1rem;
+    }
+  
+    .textSection {
+      width: 100%;
+      text-align: left;
+      margin-left: 3rem;
+    }
+  
+    .textSection h2 {
+      line-height: 2.5rem;
+      font-size: 2rem;
+    }
+  
+    .textSection p {
+      width:auto;
+      font-size: 1rem;
+    }
+  
+    .tickPoint img {
+      width: 1rem;
+      height: 1rem;
+    }
+  
+    .tickPoint p {
+      line-height: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section3 {
+      padding: 0rem;
+    }
+  
+    .imageAndTextSection {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:1rem;
+    }
+  
+    .image {
+      width: 90%;
+      max-width: none; /* Remove max-width limit */
+      margin-top: 1rem;
+    }
+  
+    .textSection {
+      width: 90%;
+      text-align: left;
+      margin-left: 1rem;
+    }
+  
+    .textSection h2 {
+      line-height: 2.5rem;
+      font-size: 2rem;
+    }
+  
+    .textSection p {
+      width:auto;
+      font-size: 1rem;
+    }
+  
+    .tickPoint img {
+      width: 1rem;
+      height: 1rem;
+    }
+  
+    .tickPoint p {
+      line-height: 1.5rem;
+    }
+  }

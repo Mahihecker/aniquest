@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1300px;
+  height: 5.625rem;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  color: white;
+  z-index: 1000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.logo {
+  width: 5.625rem;
+  height: 5.625rem;
+}
+
+.navLinks {
+  color: #d9d9d9;
+  list-style: none;
+  display: flex;
+  gap: 1.875rem;
+}
+
+.navLinks a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+
+.authLinks {
+  display: flex;
+  align-items: center;
+  gap: 2.813rem; /* Adjust the space between Get Started button and Login link */
+}
+.authLinks1 {
+  display: none;
+}
+.loginInDropdown {
+  display: none;
+}
+.loginLink {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+
+.getStartedButton {
+  padding: 0.5rem 1rem;
+  background-color: #ca3fd6;
+  color: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menuIcon {
+  display: none;
+  width: 1.875rem;
+  height: 1.875rem;
+  cursor: pointer;
+}
+
+.showMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5.625rem;
+  right: 0;
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+}
+.scrolled {
+  background-color: #24017a;
+  color: white;
+}
+
+.scrolled .navLinks a,
+.scrolled .loginLink,
+.scrolled .getStartedButton {
+  color: white;
+}
+@media (max-width: 1300px) {
+  .navbar {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height:3.938rem;
+    justify-content: space-between;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    background-color: #24017a;
+    width: 100%;
+    position: absolute;
+    top: 5.625rem;
+    left: 0;
+    padding: 1rem 0;
+    text-align: center;
+    gap: 1rem;
+    z-index: 1000;
+  }
+
+  .scrolled .navLinks {
+    background-color: #24017a;
+  }
+
+  .menuIcon {
+    display: block;
+    padding-right: 1rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+
+  .showMenu {
+    display: flex;
+  }
+
+  .logo{
+    width: 3.938rem;
+    height:3.938rem;
+    margin-left: 1rem;
+  }
+  .navLinks li {
+    margin: 0.5rem 0; 
+  }
+
+  .authLinks{
+    display: none;
+  }
+
+  .authLinks1 {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin-left: auto;
+  }
+  .getStartedButton{
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.188rem;
+    font-size: 0.75rem;
+  }
+
+  .menuIcon {
+    display: block;
+    padding-right:1rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+
+  .showMenu {
+    display: flex;
+  }
+
+
+  .loginInDropdown {
+    display: block;
+  }
+}
